@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jNt-QF-vpm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lW9-L1-vEA">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -18,7 +18,7 @@
                             <tableViewSection id="rde-U2-oFH">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" textLabel="pDA-TY-FYf" detailTextLabel="OL2-Va-AXF" imageView="ieM-ci-U3K" style="IBUITableViewCellStyleSubtitle" id="f9h-25-jgb">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                                        <rect key="frame" x="0.0" y="64" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f9h-25-jgb" id="ZhT-3A-Zde">
                                             <rect key="frame" x="0.0" y="0.0" width="553" height="79.5"/>
@@ -52,7 +52,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" textLabel="aBh-U2-sAu" detailTextLabel="DIE-Vz-Zyr" imageView="ofg-Ak-fyw" style="IBUITableViewCellStyleSubtitle" id="lAe-OB-2uh">
-                                        <rect key="frame" x="0.0" y="80" width="600" height="80"/>
+                                        <rect key="frame" x="0.0" y="144" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lAe-OB-2uh" id="Rhg-fH-ora">
                                             <rect key="frame" x="0.0" y="0.0" width="553" height="79.5"/>
@@ -86,7 +86,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" textLabel="Nnh-bh-aZX" detailTextLabel="hdd-zr-woO" imageView="oaP-sf-DfZ" style="IBUITableViewCellStyleSubtitle" id="kSM-IX-toT">
-                                        <rect key="frame" x="0.0" y="160" width="600" height="80"/>
+                                        <rect key="frame" x="0.0" y="224" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kSM-IX-toT" id="SvV-bm-La6">
                                             <rect key="frame" x="0.0" y="0.0" width="553" height="79.5"/>
@@ -120,7 +120,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" textLabel="H0h-V1-UR0" detailTextLabel="A03-dY-PFO" imageView="CX2-Aj-wD1" style="IBUITableViewCellStyleSubtitle" id="my1-pv-Eky">
-                                        <rect key="frame" x="0.0" y="240" width="600" height="80"/>
+                                        <rect key="frame" x="0.0" y="304" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="my1-pv-Eky" id="kAw-yP-hkC">
                                             <rect key="frame" x="0.0" y="0.0" width="553" height="79.5"/>
@@ -161,8 +161,28 @@
                             <outlet property="delegate" destination="jNt-QF-vpm" id="hpr-jX-oYc"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="g6A-dG-XUp"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TTX-Jk-Epl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1388" y="-583"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hm5-SU-svW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lW9-L1-vEA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FpO-im-IBw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jNt-QF-vpm" kind="relationship" relationship="rootViewController" id="uJc-bI-OQ2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="012-nV-tgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="576" y="-583"/>
         </scene>
